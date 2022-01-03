@@ -40,7 +40,7 @@ function play(userOption){
     isPlaying = true;
 
     userImg.src = "assets/"+userOption+".svg"
-    resultText.innerHTML = "Choosing!";
+    resultText.innerHTML = "...";
 
     const interval = setInterval(function(){
         const computerOption = calcComputerOption();
